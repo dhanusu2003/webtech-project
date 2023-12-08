@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+           *
+            {
+                background-image: url("bg4.jpg");
+                background-attachment: fixed;
+                background-size: cover;
+                background-repeat: no-repeat;
+
+            }
+
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+pre{
+  font-size: 20px;
+  font-family: "bookman old style",georgia,serif;
+  justify-content: right;
+}
+.slideshow-container {
+  max-width: 1000px;
+ 
+  margin: auto;
+}
+.dot {
+  height: 8px;
+  width: 8px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active {
+  background-color: #717171;
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+</head>
+    <body>
+      <H2 style="text-align: center;">LIBRARY</H2>
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img src="lib1.jpg" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="C:\xampp\htdocs\project\lib3.jpg" style="width:100%">
+        </div>
+      </div>
+        <br>
+        <div >
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+        </div>
+        <BR><BR>
+          <pre style="text-align:center">
+                Our Library occupies a spacious room with the large collection of books and magazines on a wide
+            variety of topics which helps the students to enhance their knowledge. Our school promotes reading 
+            and encourages students to cultivate a reading habit and use the library as an important centre for
+            learning.
+          </pre>
+        <script>
+        let slideIndex = 0;
+        showSlides();
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 4000);
+        }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            *
+            {
+                text-align: center;
+            }
+            body{
+            background-image: url(sch2al.jpg);
+            background-attachment: fixed;
+            background-size: cover;
+            background-repeat: no-repeat;
+            }
+        .dropbtn {
+            background-color: #3498DB;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+          }
+          
+          /* Dropdown button on hover & focus */
+          .dropbtn:hover, .dropbtn:focus {
+            background-color: #2980B9;
+          }
+          
+          /* The container <div> - needed to position the dropdown content */
+          .dropdown {
+            position: relative;
+            display: inline-block;
+          }
+          
+          /* Dropdown Content (Hidden by Default) */
+          .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+          }
+          
+          /* Links inside the dropdown */
+          .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+          }
+          
+          /* Change color of dropdown links on hover */
+          .dropdown-content a:hover {background-color: #ddd;}
+          
+          /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+          .show {display:block;}
+        </style>
+    </head>
+    <body>
+        <h4>Click Here to visit the Facilities at our School</h4>
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Facilities</button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="phylab.html">Physics Lab</a>
+              <a href="chlab.html">Chemistry Lab</a>
+              <a href="biolab.html">Biology Lab</a>
+              <a href="cslab.html">CS Lab</a>
+              <a href="lib.html">Library</a>
+              <a href="http://localhost/project/download.php">Study Material</a>
+              <a href="scholarship.html">Scholarship Details</a>
+              <a href="http://localhost/project/loginnew.php">Upload File</a>
+            </div>
+          </div>
+          <script>
+            function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+          </script>
+    </body>
+</html>
