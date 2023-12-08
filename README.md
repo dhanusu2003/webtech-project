@@ -4,7 +4,10 @@ Welcome to the digital portal of Government Higher Secondary School Periyakulath
 On our website, you can explore comprehensive profiles of our faculty members, gaining insights into their academic backgrounds, teaching philosophies, and the wealth of experience they bring to the classrooms.
 
 # WEBPAGE CONTENT
-*Home page *About page *Facilities page *Detail page *Address Page
+i) Home page ii) About page iii) Facilities page iv) Detail page v) Address Page
 
 # LANUAGES USED
-*HTML *PHP *CSS *JAVASCRIPT *MYSQL
+i) HTML ii) PHP iii) CSS iv) JAVASCRIPT v) MYSQL
+# SNAPS
+![Screenshot (126)](https://github.com/dhanusu2003/webtech-project/assets/147314895/7b44eeb6-b4dc-4249-9c6b-72cab31f8da2)
+Front page
