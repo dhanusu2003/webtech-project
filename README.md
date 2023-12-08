@@ -1,1 +1,1 @@
-# webtech-project
+# webtech-School Website project
