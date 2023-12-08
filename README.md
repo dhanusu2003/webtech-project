@@ -11,3 +11,6 @@ i) HTML ii) PHP iii) CSS iv) JAVASCRIPT v) MYSQL
 # SNAPS
 ![Screenshot (126)](https://github.com/dhanusu2003/webtech-project/assets/147314895/7b44eeb6-b4dc-4249-9c6b-72cab31f8da2)
 Front page
+
+![Uploading Screenshot (127).png…]()
+About page
