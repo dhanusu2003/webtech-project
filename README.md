@@ -28,7 +28,7 @@ Address page
 File Upload page
 
 ![Screenshot (116)](https://github.com/dhanusu2003/webtech-project/assets/147314895/6edb056f-24c9-4796-8686-cbb10956388b)
-Study Material page 
+Study Material Downlod page 
 
 ![Screenshot (123)](https://github.com/dhanusu2003/webtech-project/assets/147314895/c70b697a-af0d-40dd-9ba1-532b777921f7)
 DataBase
